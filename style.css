@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #232323;
+}
+
+header {
+  background: url(./assets/img/header-bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 23px;
+}
+
+#logo {
+  height: 4vh;
+  width: 14vw;
+}
+
+#heading{
+    height: 30vh;
+    width: 80vw;
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+}
