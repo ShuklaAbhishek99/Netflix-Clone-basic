@@ -1,0 +1,19 @@
+.Netflix-font {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+        sans-serif;
+}
+
+.Netflix-h1 {
+    font-size: 48px;
+}
+
+.Netflix-p {
+    font-size: 24px;
+    margin: 16px 0 0 0;
+}
+
+.Netflix-h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 16px 0 0 0;
+}

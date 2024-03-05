@@ -1,38 +1,153 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  background-color: #232323;
+    background-color: #232323;
 }
 
 header {
-  background: url(./assets/img/header-bg.jpg) no-repeat;
-  background-size: cover;
+    background: url(./assets/img/header-bg.jpg) no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    padding: 23px;
+nav {
+    position: relative;
+    margin: 0px 300px;
+    padding: 24px 5px;
 }
 
 #logo {
-  height: 4vh;
-  width: 14vw;
+    height: 4vh;
+    width: 14vw;
 }
 
-#heading{
-    height: 30vh;
-    width: 80vw;
-    margin: auto;
-    font-size: 2rem;
+#language {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+#language select {
+    margin: 0px 15px;
+    padding: 7px 25px;
+    border: none;
+    background: #131514;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 3px;
+}
+
+#signInbtn {
+    background: #e50914;
+    border: none;
+    color: white;
+    padding: 2px 15px;
+    border-radius: 4px;
+}
+
+#outerHeading {
+    box-sizing: border-box;
+}
+
+#heading {
+    margin: 100px auto 0px auto;
+    padding: 100px 300px;
+    height: 300px;
+    width: 870px;
+    font-size: 1.5rem;
     text-align: center;
+    color: white;
 }
 
-h1,
-h2,
-h3 {
-  color: white;
+.InputBox {
+    background: #131514;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgb(163, 153, 153);
+    border-radius: 5px;
+    margin: 12px 5px;
+    padding: 20px;
+    font-size: 16px;
+    width: 350px;
+    color: white;
+}
+
+.InputBox-button {
+    box-sizing: border-box;
+    background: #e50914;
+    margin: 12px 5px;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    width: 200px;
+    transform: translateY(7%);
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    color: white;
+    margin-top: 7px;
+    padding: 72px 0px;
+}
+
+.content-width {
+    width: 30vw;
+}
+
+.video-container {
+    position: relative;
+    z-index: 0;
+}
+
+.tv-video-1 {
+    position: absolute;
+    width: 21vw;
+    top: 22%;
+    left: 15%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.tv-video-2 {
+    position: absolute;
+    width: 18vw;
+    top: 7%;
+    left: 20%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.inside-mobile {
+    display: flex;
+}
+
+#faq-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    color: white;
+    margin-top: 7px;
+    padding: 72px 0px;
+}
+
+#footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    color: white;
+    margin-top: 7px;
+    padding: 72px 0px;
 }
